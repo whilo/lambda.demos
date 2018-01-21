@@ -1,21 +1,23 @@
 # Reward system
 
 This is a plan for a cryptocurrency applied through the plan smart contract. We
-call the currency demos from now on. 
+call the currency `demos` from now on. 
 
 # Money
 
-All plan resources will run through the system valued in demos and be managed by
-it. All plan tasks need to be fulfilled before the reward mechanism activates.
-External market mechanisms are allowed.
+
+If the currency will be included, then all plan resources will run through the
+system valued in `demos` and be managed by it. All plan tasks need to be
+fulfilled before the reward mechanism activates. External market mechanisms are
+allowed.
 
 
 ## Reward collection 
 
 There will be no mining, all demos are created at system creation: 10^12 (1
-trillion). All demos will be distributed by the smart contract due to the
+trillion). All `demos` will be distributed by the smart contract due to the
 following rules. The system also raises a 1% tax on all revenue to refill its
-pool. Initially all demos are distributed through the system.
+pool. Initially all demos are distributed through by the system described here.
 
 ### Amount of reward
 
@@ -35,7 +37,7 @@ def revenue(x): return math.log(min(10**12, x+1))/math.log(10**12)
 ~~~
 
    Note: This function weakly encourages more revenue in the executing plan. It
-   saturates if the plan has a revenue of 1 trillion demos.
+   saturates if the plan has a revenue of 1 trillion `demos`.
 
 3. Reward for sustainability: Each task can be flagged as sustainable. The ratio
    of the volume in sustainable tasks versus all tasks is rewarded. 
@@ -50,12 +52,12 @@ def revenue(x): return math.log(min(10**12, x+1))/math.log(10**12)
 
 ### Good behaviour
 
-1. Labor contributed, measured in demos. The rewards are then normalized to sum
+1. Labor contributed, measured in `demos`. The rewards are then normalized to sum
    to one. (0.25 of reward)
 2. Evaluation sheet for each user. This anonymous mechanism allows people to
    distribute demos to people they enjoy working with. (0.25 of reward)
 
 
 # Problems
-- Fake completion of the plan to gain rewards. But this will devalue demos, as
+- Fake completion of the plan to gain rewards. But this will devalue `demos`, as
   its purpose is plan fulfillment and it won't be used if the system is faked.
