@@ -22,9 +22,9 @@ made by rule 3.
 5. The winning plan describes a binding execution plan for resource assignment.
    Each voter of this plan is bound to the commitments made at plan activation.
    (M, L)
-6. All persons interacting with a running plan have the right of membership
-   after a period of 3 months. Registration is to be executed by the winning
-   plan and has to be complete for plan fulfillment. (L)
+6. All persons interacting as workers with a plan for more than 12 months have
+   the right of membership. Registration is to be executed by the winning plan
+   and has to be complete for plan fulfillment. (L)
 7. Each task has a manager who is responsible for successful task completion.
    The manager must be voting for the plan. Each worker working on a task has to
    be tracked. For external institutions or businesses workers can register in
@@ -34,23 +34,31 @@ made by rule 3.
    system at plan activation. (M)
 9. The human rights charter (UN) is applied. (L)
    http://www.un.org/en/universal-declaration-human-rights/
+10. Cooperatives can become registered in the plan. They then form an interface
+    to the private market economy. The cooperatives sign a legally binding
+    document to the constitutional rules in their business conduct. They can
+    assign resources internally and are excluded from rule 11 for external
+    business activity, but should aim for transparency in the plan. The tasks
+    they operate on have to satisfy rules 13.-16. All their members must be
+    registered users (voters). (L)
 11. All created intellectual property has to be under a free license, either
     creative commons or FSFE approved. Data is managed to protect the privacy of
     individual persons and ensure 9. All collected data in the tasks has to be
     made available for plan analysis and optimization algorithms (scheduling,
-    prediction) freely and with reasonable amount of effort. (L)
-10. The planning period is 3 months. Plan activation happens automatically at
+    prediction) freely and with reasonable amount of effort. Excluded from this
+    rule are cooperative businesses due to 10.  (L)
+12. The planning period is 3 months. Plan activation happens automatically at
     each quarter year. (M)
-11. Tasks for which the start conditions cannot be fulfilled are blocked by the
+13. Tasks for which the start conditions cannot be fulfilled are blocked by the
     plan and are not executed. An insurance mechanism allows to activate backup
     plans to unblock it at any time when the plan is active. (M)
-12. Unless any of the constitutional rules is broken, plan execution has to
+14. Unless any of the constitutional rules is broken, plan execution has to
     conform to the jurisdiction it is operating in. In case of conflict the plan
     should not be executed. (conformity) (L)
-13. A 80% majority of all voters can veto a plan and halt its official
+15. A 80% majority of all voters can veto a plan and halt its official
     execution. (M) Voters are bound to veto a plan if it is illegal due to the
     constitutional rules or the jurisdiction it is operating in. (safety) (L)
-14. Each task should be flagged as sustainable if it is reproducible for at
+16. Each task should be flagged as sustainable if it is reproducible for at
     least a million times and does not pollute the environment due to current
     knowledge. (L)
 
